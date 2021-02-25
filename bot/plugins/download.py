@@ -13,7 +13,7 @@ from pyrogram.errors import FloodWait, RPCError
 def _download(client, message):
   user_id = message.from_user.id
   if not message.media:
-    sent_message = message.reply_text('🕵️**Checking link...**', quote=True)
+    sent_message = message.reply_text('🕵️**Mengecek tautan...**', quote=True)
     if message.command:
       link = message.command[1]
     else:
@@ -49,7 +49,7 @@ def _download(client, message):
 @Client.on_message(filters.private & filters.incoming & (filters.document | filters.audio | filters.video | filters.photo) & CustomFilters.auth_users)
 def _telegram_file(client, message):
   user_id = message.from_user.id
-  sent_message = message.reply_text('🕵️**Checking File...**', quote=True)
+  sent_message = message.reply_text('🕵️**Mengecek File...**', quote=True)
   if message.document:
     file = message.document
   elif message.video:

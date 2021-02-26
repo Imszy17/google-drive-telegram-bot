@@ -45,52 +45,52 @@ class Messages:
     
     FILE_NOT_FOUND_MESSAGE = "❗ **File/Folder not found.**\n__File id - {} Not found. Make sure it\'s exists and accessible by the logged account.__"
     
-    INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
+    INVALID_GDRIVE_URL = "❗ **Tautan google drive tidak valid**\nPastikan tautan Google Drive dalam format yang valid."
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully.**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ **Berhasil menyalin.**\n[{}]({}) ```({})```"
     
-    NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
+    NOT_AUTH = f"🔑 **Anda belum mengautentikasi saya untuk mengunggah ke akun mana pun.**\n__Gunakan perintah /{BotCommands.Authorize[0]} untuk autentikasi.__"
     
-    DOWNLOADED_SUCCESSFULLY = "📤 **Mengunggah file ke gdrive...**\n**Nama file:** ```{}```\n**ukuran:** ```{}```"
+    DOWNLOADED_SUCCESSFULLY = "📤 **Mengunggah file ke gdrive...**\n\n**Nama file:** ```{}```\n\n**Ukuran:** ```{}```\n 🤖 **Silahkan tunggu**"
     
     UPLOADED_SUCCESSFULLY = "✅ **File telah diunggah.**\n[{}]({}) __({})__"
     
-    DOWNLOAD_ERROR = "❗**Unduhan gagal**\n{}\n__Link - {}__"
+    DOWNLOAD_ERROR = "❗**Unduhan gagal**\n\n{}\n__Link: {}__"
     
-    DOWNLOADING = "📥 **Mengunduh file ke server...\nLink:** ```{}```"
+    DOWNLOADING = "📥 **Mengunduh file ke server...\n\nTautan:** ```{}```"
     
     ALREADY_AUTH = "🔒 **Bot telah tertaut pada akun google drive anda.**\n__gunakan /revoke untuk mengeluarkan akun.__\n__Kirim saya tautan langsung atau file untuk diunggah ke gdrive__"
     
-    FLOW_IS_NONE = f"❗ **Invalid Code**\n__Run {BotCommands.Authorize[0]} first.__"
+    FLOW_IS_NONE = f"❗ **Kode tidak valid**\n__Gunakan perintah {BotCommands.Authorize[0]} terlebih dahulu.__"
     
-    AUTH_SUCCESSFULLY = '🔐 **Authorized Google Drive account Successfully.**'
+    AUTH_SUCCESSFULLY = '🔐 **Autentikasi akun berhasil!.**'
     
-    INVALID_AUTH_CODE = '❗ **Invalid Code**\n__The code you have sent is invalid or already used before. Generate new one by the Authorization URL__'
+    INVALID_AUTH_CODE = '❗ **Kode tidak valid!**\n__Silahkan anda mengambil kode autentikasi baru__'
     
     AUTH_TEXT = "🤖 **Anda perlu masuk ke akun google drive terlebih dahulu melalui [URL]({}) ini, salin kode yang tertampil, lalu kirimkan ke bot ini.**\n__Kunjungi URL > Izinkan > anda akan melihat kode > salin > kirim ke bot ini__"
     
-    DOWNLOAD_TG_FILE = "📥 **Mengunduh file ke server...**\n**Nama file:** ```{}```\n**ukuran:** ```{}```\n**Tipe file:** ```{}```"
+    DOWNLOAD_TG_FILE = "📥 **Mengunduh file ke server...**\n\n**Nama file:** ```{}```\n\n**Ukuran:** ```{}```\n\n**Tipe file:** ```{}```\n 🤖 **Proses ini mungkin membutuhkan waktu.**"
     
-    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
+    PARENT_SET_SUCCESS = '🆔✅ **Tautan folder kustom berhasil disetel.**\n**ID folder kamu:** ```{}```\ngunakan__ ```/{} clear``` __untuk melepas folder.__'
     
-    PARENT_CLEAR_SUCCESS = f'🆔🚮 **Custom Folder ID Cleared Successfuly.**\n__Use__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __to set it back__.'
+    PARENT_CLEAR_SUCCESS = f'🆔🚮 **Folder kustom berhasil dilepas.**\n__gunakan__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __untuk menyetel kembali__.'
     
-    CURRENT_PARENT = "🆔 **Your Current Custom Folder ID - {}**\n__Use__ ```/{} (Folder link)``` __to change it.__"
+    CURRENT_PARENT = "🆔 **ID Folder Kustom Anda Saat Ini:** ```{}```\n__Gunakan__ ```/{} (Folder link)``` __untuk mengubahnya.__"
     
-    REVOKED = f"🔓 **Revoked current logged account successfully.**\n__Use /{BotCommands.Authorize[0]} to authenticate again and use this bot.__"
+    REVOKED = f"🔓 **Anda berhasil mengeluarkan akun dari bot.**\n__Gunakan /{BotCommands.Authorize[0]} Untuk mengautentikasi kembali.__"
     
-    NOT_FOLDER_LINK = "❗ **Invalid folder link.**\n__The link you send its not belong to a folder.__"
+    NOT_FOLDER_LINK = "❗ **Tautan folder tidak valid.**\n__Tautan yang anda kirim tidak menunjukan folder apapun.__"
     
     CLONING = "🗂️ **Menyalin ke google drive...**\n__Tautan GDrive - {}__"
     
-    PROVIDE_GDRIVE_URL = "**❗ Provide a valid Google Drive URL along with commmand.**\n__Usage - /{} (GDrive Link)__"
+    PROVIDE_GDRIVE_URL = "**❗ Berikan tautan Google Drive yang valid bersama dengan perintah**\n__Contoh - /{} (GDrive Link)__"
     
-    INSUFFICIENT_PERMISSONS = "❗ **You have insufficient permissions for this file.**\n__File id - {}__"
+    INSUFFICIENT_PERMISSONS = "❗ **Anda tidak memiliki izin untuk mengakses file ini**\n**File id:** ```{}```"
     
-    DELETED_SUCCESSFULLY = "🗑️✅ **File berhasil dihapus.**\n__File dihapus secara permanen !\nFile id - {}__"
+    DELETED_SUCCESSFULLY = "🗑️✅ **File berhasil dihapus.**\n\n❗ **File dihapus secara permanen !**\n\n**ID file:** ```{}```"
     
-    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later.__"
+    WENT_WRONG = "⁉️ **ERROR: ADA YANG SALAH**\n__SilahkanCoba lagi nanti.__"
     
     EMPTY_TRASH = "🗑️🚮**Sampah berhasil dihapus !**"
     
-    PROVIDE_YTDL_LINK = "❗**Provide a valid YouTube-DL supported link.**"
+    PROVIDE_YTDL_LINK = "❗**Berikan tautan valid yang didukung YouTube-DL**"

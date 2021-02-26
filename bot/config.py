@@ -51,13 +51,13 @@ class Messages:
     
     NOT_AUTH = f"🔑 **Anda belum mengautentikasi saya untuk mengunggah ke akun mana pun.**\n__Gunakan perintah /{BotCommands.Authorize[0]} untuk autentikasi.__"
     
-    DOWNLOADED_SUCCESSFULLY = "📤 **Mengunggah file ke gdrive...**\n\n**Nama file:** ```{}```\n\n**Ukuran:** ```{}```\n 🤖 **Silahkan tunggu**"
+    DOWNLOADED_SUCCESSFULLY = "📤 **Mengunggah file ke gdrive...**\n\n**Nama file:** ```{}```\n**Ukuran:** ```{}```\n**Uploader:** @GMuploaderbot"
     
-    UPLOADED_SUCCESSFULLY = "✅ **File telah diunggah.**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "✅ **File telah diunggah.**\n**Tautan:** [{}]({})\n**Ukuran:** ({})\n**Upload by:** @GMuploaderbot"
     
     DOWNLOAD_ERROR = "❗**Unduhan gagal**\n\n{}\n__Link: {}__"
     
-    DOWNLOADING = "📥 **Mengunduh file ke server...\n\nTautan:** ```{}```"
+    DOWNLOADING = "📥 **Mengunduh file ke server...\n\nTautan:** ```{}```\n**Uploader:** @GMuploaderbot"
     
     ALREADY_AUTH = "🔒 **Bot telah tertaut pada akun google drive anda.**\n__gunakan /revoke untuk mengeluarkan akun.__\n__Kirim saya tautan langsung atau file untuk diunggah ke gdrive__"
     
@@ -69,7 +69,7 @@ class Messages:
     
     AUTH_TEXT = "🤖 **Anda perlu masuk ke akun google drive terlebih dahulu melalui [URL]({}) ini, salin kode yang tertampil, lalu kirimkan ke bot ini.**\n__Kunjungi URL > Izinkan > anda akan melihat kode > salin > kirim ke bot ini__"
     
-    DOWNLOAD_TG_FILE = "📥 **Mengunduh file ke server...**\n\n**Nama file:** ```{}```\n\n**Ukuran:** ```{}```\n\n**Tipe file:** ```{}```\n 🤖 **Proses ini mungkin membutuhkan waktu.**"
+    DOWNLOAD_TG_FILE = "📥 **Mengunduh file ke server...**\n\n**Nama file:** ```{}```\n**Ukuran:** ```{}```\n**Tipe file:** ```{}```\n**Uploader:** @GMuploaderbot"
     
     PARENT_SET_SUCCESS = '🆔✅ **Tautan folder kustom berhasil disetel.**\n**ID folder kamu:** ```{}```\ngunakan__ ```/{} clear``` __untuk melepas folder.__'
     
@@ -87,7 +87,7 @@ class Messages:
     
     INSUFFICIENT_PERMISSONS = "❗ **Anda tidak memiliki izin untuk mengakses file ini**\n**File id:** ```{}```"
     
-    DELETED_SUCCESSFULLY = "🗑️✅ **File berhasil dihapus.**\n\n❗ **File dihapus secara permanen !**\n\n**ID file:** ```{}```"
+    DELETED_SUCCESSFULLY = "🗑️✅ **File berhasil dihapus.**\n**File dihapus secara permanen !**\n\n**ID file:** ```{}```"
     
     WENT_WRONG = "⁉️ **ERROR: ADA YANG SALAH**\n__SilahkanCoba lagi nanti.__"
     

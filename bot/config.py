@@ -53,7 +53,7 @@ class Messages:
     
     DOWNLOADED_SUCCESSFULLY = "📤 **Mengunggah file ke gdrive...**\n\n**Nama file:** ```{}```\n**Ukuran:** ```{}```\n**Uploader:** @GMuploaderbot"
     
-    UPLOADED_SUCCESSFULLY = "✅ **File telah diunggah.**\n**Nama file:** ```{}```\n**Tautan:* {}\n**Ukuran:** ```({})```\n**Upload by:** ```@GMuploaderbot```"
+    UPLOADED_SUCCESSFULLY = "✅ **File telah diunggah.**\n**Tautan:** [{}]({})```({})```\n\n**Upload by:** @GMuploaderbot"
     
     DOWNLOAD_ERROR = "❗**Unduhan gagal**\n\n{}\n__Link: {}__"
     
